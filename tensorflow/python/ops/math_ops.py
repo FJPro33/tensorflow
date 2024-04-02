@@ -3412,6 +3412,7 @@ def matmul(
     grad_b=False,
     name=None,
 ):
+  print("Fritz you made it!!!!!!!!")
   """Multiplies matrix `a` by matrix `b`, producing `a` * `b`.
 
   The inputs must, following any transpositions, be tensors of rank >= 2
